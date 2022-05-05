@@ -41,7 +41,7 @@
     <dependency org="jakarta.ejb" name="jakarta.ejb-api" rev="4.0.0-RC1" force="true" conf="test->default(*)"/>
     <dependency org="jakarta.annotation" name="jakarta.annotation-api" rev="2.0.0-RC1" force="true" conf="test->default(*)"/>
     <dependency org="jakarta.el" name="jakarta.el-api" rev="4.0.0.M1" force="true" conf="test->default(*)"/>
-    <dependency org="org.hibernate.beanvalidation.tck" name="beanvalidation-tck-tests" rev="${version.tck}"
+    <dependency org="jakarta.validation" name="beanvalidation-tck-tests" rev="${version.tck}"
                 conf="test->default(*)"/>
     <!-- The Arquillian container adapter for the container under test. Specific to the container in which to run the tests -->
     <dependency org="org.hibernate" name="hibernate-validator" rev="8.0.0.Alpha3" conf="test->default(*)"/>
