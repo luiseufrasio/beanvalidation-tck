@@ -23,18 +23,19 @@
      -->
     <groupId>jakarta.validation</groupId>
     <artifactId>tck-runner</artifactId>
-    <version>${tck.version}</version>
+    <version>3.0.0</version>
 
     <name>Example Jakarta Bean Validation TCK Runner</name>
     <description>Aggregates dependencies and runs the Jakarta Bean Validation TCK</description>
 
     <properties>
+        <tck.version>3.0.0</tck.version>
         <tck.suite.file>target/dependency/beanvalidation-tck-tests-suite.xml</tck.suite.file>
         <arquillian.version>1.7.0.Alpha2</arquillian.version>
         <!-- The version for the arquillian-glassfish-*-6 containers -->
         <arquillian.container.version>1.0.0.Alpha1</arquillian.container.version>
         <!-- Where GlassFish is unpacked to -->
-        <container.home>/tmp/glassfish6</container.home>
+        <container.home>mnt/c/Users/luise/git/Payara6/Payara/appserver/distributions/payara/target/stage/payara6</container.home>
 
         <validation.provider>org.hibernate.validator.HibernateValidator</validation.provider>
     </properties>
