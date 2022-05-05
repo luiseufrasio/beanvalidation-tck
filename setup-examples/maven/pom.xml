@@ -35,7 +35,7 @@
         <!-- The version for the arquillian-glassfish-*-6 containers -->
         <arquillian.container.version>1.0.0.Alpha1</arquillian.container.version>
         <!-- Where GlassFish is unpacked to -->
-        <container.home>mnt/c/Users/luise/git/Payara6/Payara/appserver/distributions/payara/target/stage/payara6</container.home>
+        <container.home>/mnt/c/Users/luise/git/Payara6/Payara/appserver/distributions/payara/target/stage/payara6</container.home>
 
         <validation.provider>org.hibernate.validator.HibernateValidator</validation.provider>
     </properties>
