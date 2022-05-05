@@ -22,3 +22,4 @@
 # Release scripts
 /beanvalidation-release-scripts
 
+/setup-examples/maven/target/*
