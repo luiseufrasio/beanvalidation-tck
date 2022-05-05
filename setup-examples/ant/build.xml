@@ -31,8 +31,7 @@
 
     <!-- Build the remote path to the testng suite file-->
     <property name="remote.tck.suite.file"
-              value="${maven.repo.local}/org/hibernate/beanvalidation/tck/beanvalidation-tck-tests/${version.tck}/beanvalidation-tck-tests-${version.tck}-suite.xml"/>
-
+              value="${maven.repo.local}/jakarta/validation/beanvalidation-tck-tests/${version.tck}/beanvalidation-tck-tests-${version.tck}-suite.xml"/>
     <!-- ====================================================================== -->
     <!-- Ivy bootstrap targets                                                  -->
     <!-- ====================================================================== -->
