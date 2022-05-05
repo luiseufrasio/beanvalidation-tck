@@ -23,7 +23,7 @@
     <property name="project.test.reportsOutputDirectory" value="${project.build.directory}/test-results"/>
 
     <!-- Remote repositories and ivy settings -->
-    <property name="maven.repo.central" value="http://repo1.maven.org/maven2"/>
+    <property name="maven.repo.central" value="https://repo1.maven.org/maven2"/>
     <property name="maven.repo.local" value="${user.home}/.m2/repository"/>
     <property name="ivy.install.version" value="2.4.0"/>
     <property name="ivy.jar.dir" value="${basedir}/.ivy"/>
