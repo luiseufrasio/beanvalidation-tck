@@ -33,7 +33,7 @@
                 conf="test->default(*)"/>
     <dependency org="org.jboss.shrinkwrap.descriptors" name="shrinkwrap-descriptors-impl-javaee" rev="2.0.0-alpha-10"
                 force="true" conf="test->default(*)"/>
-    <dependency org="jakarta.enterprise" name="jakarta.enterprise.cdi-api" rev="3.0.0-M1" force="true" conf="test->default(*)">
+    <dependency org="jakarta.enterprise" name="jakarta.enterprise.cdi-api" rev="3.0.0-M3" force="true" conf="test->default(*)">
       <exclude org="jakarta.el" module="jakarta.el-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
       <exclude org="jakarta.interceptor" module="jakarta.interceptor-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
     </dependency>
