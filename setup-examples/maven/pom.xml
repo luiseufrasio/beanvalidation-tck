@@ -148,7 +148,7 @@
                                 <suiteXmlFile>${tck.suite.file}</suiteXmlFile>
                             </suiteXmlFiles>
                             <systemPropertyVariables>
-                                <validation.provider>${validation.provider}</validation.provider>
+                                <validation.provider>org.hibernate.validator.HibernateValidator</validation.provider>
                                 <arquillian.launch>remote</arquillian.launch>
                             </systemPropertyVariables>
                         </configuration>
@@ -181,7 +181,7 @@
                                 <suiteXmlFile>${tck.suite.file}</suiteXmlFile>
                             </suiteXmlFiles>
                             <systemPropertyVariables>
-                                <validation.provider>${validation.provider}</validation.provider>
+                                <validation.provider>org.hibernate.validator.HibernateValidator</validation.provider>
                                 <arquillian.launch>incontainer</arquillian.launch>
                             </systemPropertyVariables>
                         </configuration>
