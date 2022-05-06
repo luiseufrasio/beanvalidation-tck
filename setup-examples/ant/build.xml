@@ -132,7 +132,7 @@
             <!-- Container qualifier used in arquillian.xml -->
             <sysproperty key="arquillian.launch" value="incontainer"/>
             <!-- Specify the Jakarta Bean Validation provider under test -->
-            <sysproperty key="validation.provider" value="${validation.provider}"/>
+            <sysproperty key="validation.provider" value="org.hibernate.validator.HibernateValidator"/>
             <!-- Uncomment to include JavaFX tests -->
             <!-- sysproperty key="includeJavaFXTests" value="true"/> -->
 
