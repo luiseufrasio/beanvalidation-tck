@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Location where the Bean Validation TCK dist has been extracted
-TCK_DIST=/tmp/BV/beanvalidation-tck-dist-${tck.version}
+TCK_DIST=/mnt/c/Users/luise/git/tck/beanvalidation-tck-dist-3.0.0
 
 # Parent pom
 mvn org.apache.maven.plugins:maven-install-plugin:3.0.0-M1:install-file \

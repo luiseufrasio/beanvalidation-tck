@@ -146,7 +146,7 @@
                         <suiteXmlFile>${tck.suite.file}</suiteXmlFile>
                     </suiteXmlFiles>
                     <systemPropertyVariables>
-                        <validation.provider>${validation.provider}</validation.provider>
+                        <validation.provider>org.hibernate.validator.HibernateValidator</validation.provider>
                         <arquillian.launch>local</arquillian.launch>
                     </systemPropertyVariables>
                 </configuration>
