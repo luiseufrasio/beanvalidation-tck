@@ -31,7 +31,7 @@
     <properties>
         <tck.version>3.0.0</tck.version>
         <tck.suite.file>target/dependency/beanvalidation-tck-tests-suite.xml</tck.suite.file>
-        <arquillian.version>1.7.0.Alpha2</arquillian.version>
+        <arquillian.version>1.7.0.Alpha10</arquillian.version>
         <!-- The version for the arquillian-glassfish-*-6 containers -->
         <arquillian.container.version>1.0.0.Alpha1</arquillian.container.version>
         <!-- Where GlassFish is unpacked to -->
@@ -126,7 +126,7 @@
 
     <profiles>
         <profile>
-            <id>glassish-remote</id>
+            <id>glassfish-remote</id>
             <dependencies>
                 <dependency>
                     <groupId>org.jboss.arquillian.container</groupId>
